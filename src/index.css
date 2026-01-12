@@ -5,4 +5,8 @@ body {
     background: #1a1919;
 }
 
+#TaskList::-webkit-scrollbar {
+    display: none;
+}
+
 @import 'tailwindcss'
