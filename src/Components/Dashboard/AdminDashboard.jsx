@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
+import AllTask from './components/AllTask'
 
 const AdminDashboard = () => {
     return (
@@ -48,7 +49,7 @@ const AdminDashboard = () => {
 
                 </div>
             </form>
-
+            <AllTask />
         </>
     )
 }

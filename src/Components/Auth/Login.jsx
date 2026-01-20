@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
+import { AuthContext } from '../../Context/AuthProvider'
 
-const Login = () => {
+const Login = ({ handleLogin }) => {
+
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
 
     const submitHandler = (e) => {
         console.log("submitted", email, password);
         e.preventDefault()
+        handleLogin(email, password);
 
         setEmail('');
         setPassword('')
@@ -19,8 +22,6 @@ const Login = () => {
     const emailHndl = (e) => {
         setEmail(e.target.value)
     }
-
-
 
     return (
         <>
