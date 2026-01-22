@@ -18,8 +18,7 @@ function App() {
   const [loggedInUser, setLoggedInUser] = useState(null);
 
   const authData = useContext(AuthContext);
-  console.log("employees", authData.Employees)
-  console.log("admin", authData.Admin)
+
 
   useEffect(() => {
 
