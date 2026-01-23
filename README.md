@@ -16,4 +16,4 @@ A React-based dashboard application for managing employee data.
 - Responsive design
 
 ### 🌐 Live Demo
-https://employee-management-system.netlify.app
+employes-management-system.netlify.app
